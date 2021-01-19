@@ -64,7 +64,8 @@ def no_vowels(input_string):
     result = ""
     for i in range(len(input_string)):
         ch = input_string[i]
-        if (ch != 'a' and ch != 'e' and ch != 'i' and ch != 'o' and ch != 'u'):
+        if (ch != 'a' and ch != 'e' and ch != 'i' and ch != 'o' and ch != 'u'
+                and ch != 'A' and ch != 'E' and ch != 'I' and ch != 'O' and ch != 'U'):
             result += ch
 
     no_vowel_string = result
